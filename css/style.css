@@ -326,4 +326,65 @@ footer>div:last-child>div {
         /* color: hsl(233, 26%, 24%); */
         margin-bottom: 20px;
     }
+    /* -----------------why setion----- */
+    .why {
+        padding: 60px 150px;
+    }
+    .why>div:first-child,
+    .why>div:nth-child(2),
+    .service,
+    .articles>div:first-child {
+        text-align: left;
+    }
+    br {
+        display: inherit;
+    }
+    .services {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .service {
+        text-align: left;
+    }
+    /* ----------article----------- */
+    .latest {
+        text-align: left;
+        padding: 20px 150px;
+    }
+    .articles {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+    footer {
+        grid-template-columns: 1fr 1fr 2fr 1fr;
+        padding: 20px 150px;
+    }
+    footer>div:nth-child(3)>div {
+        font-weight: 400;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    footer>div:nth-child(2)>div:hover,
+    footer>div:nth-child(3)>div:hover {
+        color: var(--LimeGreen);
+        /* color: hsl(136, 65%, 51%); */
+    }
+    .menu {
+        text-align: left;
+    }
+    .logo {
+        grid-gap: 35px;
+        justify-self: start;
+    }
+    .btn {
+        align-self: center;
+        text-align: right;
+    }
+    button {
+        cursor: pointer;
+    }
+    .social {
+        cursor: pointer;
+    }
 }
