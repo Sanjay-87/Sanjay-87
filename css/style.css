@@ -196,3 +196,45 @@ br {
 .card {
     background: white;
 }
+
+footer {
+    padding: 30px;
+    background-color: var(--DarkBlue);
+    /* background-color: hsl(233, 26%, 24%); */
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    display: grid;
+    grid-gap: 15px;
+}
+
+footer>div:nth-child(2)>div {
+    font-weight: 400;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+footer>div:nth-child(3)>div {
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+footer>div:last-child>div {
+    margin-top: 1.5em;
+    font-size: 13px;
+    color: var(--GrayishBlue);
+    /* color: hsl(233, 8%, 62%); */
+}
+
+.social {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 15px;
+    justify-content: center;
+    text-size-adjust: 23;
+}
