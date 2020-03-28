@@ -207,9 +207,13 @@ footer {
     color: white;
 }
 
-.logo {
+footer .logo {
     display: grid;
     grid-gap: 15px;
+}
+
+footer .logo img {
+    justify-self: center;
 }
 
 footer>div:nth-child(2)>div {
@@ -294,22 +298,22 @@ footer>div:last-child>div {
         flex-direction: row-reverse;
     }
     .hero {
-        padding-right: 100px;
         text-align: left;
         padding-top: 180px;
         padding-bottom: 180px;
-        padding-left: 120px;
-        width: 50%;
+        padding-left: 150px;
+        width: 60%;
     }
     .hero-img {
         background: url('../images/bg-intro-desktop.svg');
-        background-position: -10px -190px;
-        background-size: 1090px 900px;
+        background-position: -10px -200px;
+        background-size: 1050px 900px;
         background-repeat: no-repeat;
         height: 650px;
+        width: 70%;
     }
     .mockups img {
-        transform: translate(120px, -110px);
+        transform: translate(120px, -115px);
     }
     .intro {
         overflow: inherit;
@@ -328,7 +332,7 @@ footer>div:last-child>div {
     }
     /* -----------------why section----- */
     .why {
-        padding: 60px 150px;
+        padding: 100px 150px;
     }
     .why>div:first-child,
     .why>div:nth-child(2),
@@ -373,9 +377,10 @@ footer>div:last-child>div {
     .menu {
         text-align: left;
     }
-    .logo {
-        grid-gap: 35px;
+    footer .logo {
+        padding-top: 15px;
         justify-self: start;
+        grid-gap: 20px;
     }
     .btn {
         align-self: center;
