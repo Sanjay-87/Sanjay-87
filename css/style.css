@@ -1,0 +1,86 @@
+:root {
+    /* Colors */
+    --primary-gradient: linear-gradient( to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    --DarkBlue: hsl(233, 26%, 24%);
+    --LimeGreen: hsl(136, 65%, 51%);
+    --BrightCyan: hsl(192, 70%, 51%);
+    --GrayishBlue: hsl(233, 8%, 62%);
+    --LightGrayishBlue: hsl(220, 16%, 96%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+    --White: hsl(0, 0%, 100%);
+    /* Typography */
+    --main-font: 'Public Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    padding: 20px;
+    grid-gap: 47%;
+}
+
+.hamburger {
+    margin-top: 0.4em;
+}
+
+.btn-ri-h,
+nav {
+    display: none;
+}
+
+button {
+    padding: 15px 32px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    color: white;
+    background: var(--primary-gradient);
+    /* background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%)); */
+}
+
+.intro {
+    overflow: hidden;
+    display: grid;
+    grid-gap: 100px;
+}
+
+.hero-img {
+    background-image: url('../images/bg-intro-mobile.svg');
+    background-position: 10% -22%;
+    background-size: 120% 100%;
+    background-repeat: no-repeat;
+    height: 315px;
+    padding: 20px;
+}
+
+.mockups img {
+    width: 100%;
+    transform: translateY(-138px);
+}
+
+.hero {
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.hero div:first-child {
+    font-size: 40px;
+    color: var(--DarkBlue);
+    /* color: hsl(233, 26%, 24%); */
+    margin-bottom: 20px;
+}
+
+.hero div:nth-child(2) {
+    margin-bottom: 20px;
+    color: var(--GrayishBlue);
+    /* color: hsl(233, 8%, 62%); */
+    line-height: 25px;
+}
